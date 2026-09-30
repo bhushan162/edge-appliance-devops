@@ -1,0 +1,28 @@
+# Zephyr / west
+build/
+.west/
+zephyr/
+modules/
+bootloader/
+tools/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Robot Framework output
+output.xml
+log.html
+report.html
+
+# Secrets and local config (never commit these)
+.env
+*.pem
+*.key
+localstack-data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
